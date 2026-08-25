@@ -2,7 +2,7 @@
 
 **Resonance** is a visually captivating, physics-inspired interactive playground built entirely with Vanilla Web Technologies. It simulates wave interference and ripple effects in real-time on an HTML5 Canvas, allowing users to explore the calming intersection of light, physics, and sound.
 
-### 🔗 [Live Demo] (Insert your hosted link here, e.g., GitHub Pages)
+### 🔗 [Live Demo](https://saad-innovation.github.io/Resonance/)
 
 ## ✨ Key Features
 
@@ -28,4 +28,4 @@ Since this is a client-side only application, getting it running is incredibly s
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/resonance.git](https://github.com/yourusername/resonance.git)
+   git clone [https://github.com/saad-innovation/Resonance.git](https://github.com/saad-innovation/Resonance.git)
