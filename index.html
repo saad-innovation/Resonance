@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Resonance — Interactive Wave Interference Playground</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="waveCanvas"></canvas>
+
+<div class="topbar">
+  <div class="eyebrow">interactive physics</div>
+  <h1>🌊 Resonance</h1>
+  <div class="tagline">// click anywhere to send out a wave</div>
+</div>
+
+<div class="hint" id="hint">tap / click the canvas to begin</div>
+
+<div class="panel">
+  <div class="deck-label">⌁ control deck</div>
+
+  <div class="control">
+    <label>Frequency <span class="val" id="freqVal">5</span></label>
+    <input type="range" id="freq" min="1" max="10" value="5" />
+  </div>
+
+  <div class="control">
+    <label>Wavelength <span class="val" id="decayVal">3</span></label>
+    <input type="range" id="decay" min="1" max="10" value="3" />
+  </div>
+
+  <div class="section-label">color theme</div>
+  <div class="themes" id="themes"></div>
+
+  <div class="row">
+    <button class="btn" id="autoBtn">Auto Mode</button>
+    <button class="btn" id="soundBtn">🔇 Sound</button>
+  </div>
+  <div class="row">
+    <button class="btn" id="clearBtn">Clear Canvas</button>
+  </div>
+</div>
+
+<div class="stats">
+  <div class="count" id="waveCount">0</div>
+  <div class="count-label">active waves</div>
+</div>
+
+<div class="credit">Developed — by Saad Ali</div>
+
+<script src="script.js"></script>
+</body>
+</html>
